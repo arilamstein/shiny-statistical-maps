@@ -7,7 +7,7 @@ demographic_choices = colnames(df_state_demographics)[2:ncol(df_state_demographi
 shinyUI(fluidPage(
 
   titlePanel("Simple Census Explorer"),
-  div(HTML("By <a href='http://www.arilamstein.com'>Ari Lamstein</a>")),
+  div(HTML("By <a href='http://www.arilamstein.com'>Ari Lamstein</a>. Source code <a href='https://github.com/arilamstein/shiny-statistical-maps'>here</a>.")),
 
   sidebarLayout(
     sidebarPanel(
